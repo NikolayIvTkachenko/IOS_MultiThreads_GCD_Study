@@ -24,7 +24,7 @@ class SecondViewController: UIViewController {
 //            }
 //        }
         
-        
+        print("main thread: \(Thread.isMainThread)")
         
         testInnactiveQueue()
     }
